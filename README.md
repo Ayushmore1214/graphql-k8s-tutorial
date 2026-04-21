@@ -15,7 +15,6 @@ This is a no-nonsense, production-ready blueprint. It’s the setup I use to mak
 ### Why does this matter?
 GraphQL is special. You can’t treat it like a simple static website. This repo is the Golden Path it’s the basic, solid foundation you need so you can stop fighting with infrastructure and get back to building the actual graph.
 
-***
 
 ##  Prerequisites
 Ensure you have the following installed in your environment:
@@ -75,10 +74,12 @@ kubectl port-forward svc/graphql-service 4000:80 -n graphql-prod
 
 ---
 
-***
 
 ### **Crucial Final Step:**
 Before you commit and push this:
 1. Replace `<your-docker-username>` in the README with your actual username (`ayush12141`).
 2. Make sure you also update the `image:` line in your `k8s/deployment.yaml` file to use `ayush12141/graphql-k8s:v1`.
+   
+This repository is an official contribution by a GraphQL Foundation Ambassador. Its purpose is to provide the community with a Golden Path for infrastructure, ensuring that as more developers bring GraphQL to Kubernetes, they do so with production-grade reliability and performance.
 
+If you’d like to contribute, improve the manifests, or add observability hooks, feel free to open a PR! Do drop a STAR if you liked it!!
