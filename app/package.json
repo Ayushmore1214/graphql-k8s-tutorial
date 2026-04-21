@@ -1,0 +1,10 @@
+{
+  "name": "graphql-k8s-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^16.0.0",
+    "graphql-yoga": "^5.0.0"
+  }
+}
