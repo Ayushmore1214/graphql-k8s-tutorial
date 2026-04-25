@@ -1,6 +1,6 @@
 # GraphQL K8s Blueprint
 
-This repo is my attempt to stop the "it works on my machine" problem when running GraphQL on Kubernetes.
+This repo is my attempt to stop the it works on my machine problem when running GraphQL on Kubernetes.
 If you’ve ever deployed a GraphQL app to a cluster, you know the pain pods that report as ready before they’re actually ready, resource spikes that kill your nodes, or just not knowing how to properly isolate your dev and prod environments.
 
 ### What is this repo about?
